@@ -1,0 +1,14 @@
+混凝土强度回归实验结果
+==================================================
+特征模式 feature_mode = core
+使用特征 = ['cement', 'water', 'superplasticizer', 'age']
+激活函数 activation_name = gelu
+是否对 y 标准化 use_y_scaling = False
+dropout = 0.0
+learning_rate = 0.001
+epochs = 300
+--------------------------------------------------
+MSE  = 166.7551
+RMSE = 12.9134
+MAE  = 10.4738
+R^2  = -0.0925

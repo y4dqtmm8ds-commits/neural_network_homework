@@ -1,0 +1,14 @@
+混凝土强度回归实验结果
+==================================================
+特征模式 feature_mode = all
+使用特征 = ['cement', 'slag', 'flyash', 'water', 'superplasticizer', 'coarseaggregate', 'fineaggregate', 'age']
+激活函数 activation_name = relu
+是否对 y 标准化 use_y_scaling = True
+dropout = 0.0
+learning_rate = 0.001
+epochs = 300
+--------------------------------------------------
+MSE  = 38.2338
+RMSE = 6.1833
+MAE  = 4.2629
+R^2  = 0.8516

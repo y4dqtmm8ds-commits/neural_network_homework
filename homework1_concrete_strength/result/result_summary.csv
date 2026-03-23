@@ -1,0 +1,11 @@
+﻿feature_mode,activation_name,use_y_scaling,dropout,learning_rate,epochs,MSE,RMSE,MAE,R2
+all,gelu,False,0.0,0.001,300,183.0863,13.5309,11.4778,-0.1995
+all,leakyrelu,False,0.0,0.001,300,146.6551,12.1101,10.4356,0.0391
+all,relu,False,0.0,0.001,300,143.8234,11.9926,10.172,0.0577
+all,relu,True,0.0,0.001,300,127.6525,11.2983,9.1638,0.1636
+core,gelu,False,0.0,0.001,300,166.7551,12.9134,10.4738,-0.0925
+core,leakyrelu,False,0.0,0.001,300,149.1803,12.2139,9.8158,0.0226
+core,relu,False,0.0,0.001,300,176.9188,13.3011,10.7436,-0.1591
+high_corr,gelu,False,0.0,0.001,300,133.4003,11.5499,9.9542,0.126
+high_corr,leakyrelu,False,0.0,0.001,300,170.6383,13.0629,11.4304,-0.118
+high_corr,relu,False,0.0,0.001,300,133.7183,11.5637,9.9656,0.1239
