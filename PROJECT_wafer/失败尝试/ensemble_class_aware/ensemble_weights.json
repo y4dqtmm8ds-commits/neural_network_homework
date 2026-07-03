@@ -1,0 +1,74 @@
+{
+  "metric": "macro_f1",
+  "search": "random",
+  "n_iter": 3000,
+  "grid_step": 0.1,
+  "class_aware": true,
+  "val_score": 0.9454124543320048,
+  "global_weights": {
+    "outputs64/seresnet_ce_64_50/best_model.pt": 0.14004187089975612,
+    "outputs64/dual_soft_ce_64_50/best_model.pt": 0.020092312169795,
+    "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.3638505132814896,
+    "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.2778570444711025,
+    "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.19815825917785682
+  },
+  "class_val_score": 0.9492959892806505,
+  "class_weights": {
+    "Center": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.14004187089975612,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.020092312169795,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.3638505132814896,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.2778570444711025,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.19815825917785682
+    },
+    "Donut": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.0,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.0,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.0,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.0,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 1.0
+    },
+    "Edge-Loc": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.3623805427626443,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.12134106370843649,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.1272168896230645,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.16260470682379172,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.226456797082063
+    },
+    "Edge-Ring": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.14004187089975612,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.020092312169795,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.3638505132814896,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.2778570444711025,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.19815825917785682
+    },
+    "Loc": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.005801088570983484,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.02491957135489845,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.522574054825409,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.0613934234411427,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.3853118618075663
+    },
+    "Near-full": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.14004187089975612,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.020092312169795,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.3638505132814896,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.2778570444711025,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.19815825917785682
+    },
+    "Random": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.14004187089975612,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.020092312169795,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.3638505132814896,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.2778570444711025,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.19815825917785682
+    },
+    "Scratch": {
+      "outputs64/seresnet_ce_64_50/best_model.pt": 0.07674723228507273,
+      "outputs64/dual_soft_ce_64_50/best_model.pt": 0.3417225095659768,
+      "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.14156848162679675,
+      "outputs/struct_exp_dual_soft_pseudo_50/best_model.pt": 0.03856340392332838,
+      "outputs/gpu_student_pseudo_seresnet_50/best_model.pt": 0.40139837259882544
+    }
+  }
+}

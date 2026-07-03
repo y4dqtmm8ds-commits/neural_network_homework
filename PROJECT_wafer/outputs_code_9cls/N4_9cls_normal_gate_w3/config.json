@@ -1,0 +1,20 @@
+{
+  "data_dir": "data\\processed64_onehot_all9",
+  "w3_checkpoint": "outputs64\\exp50_W3_oof_cleanlab_caw_n05_c07_s02\\best_model.pth",
+  "out": "outputs64_9cls\\exp50_N4_9cls_normal_gate_w3",
+  "epochs": 20,
+  "batch_size": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "width": 48,
+  "dropout": 0.25,
+  "label_smoothing": 0.03,
+  "device": "cuda",
+  "amp": true,
+  "num_workers": 0,
+  "seed": 42,
+  "patience": 8,
+  "binary_threshold": 0.5,
+  "balanced_binary_sampler": true,
+  "w3_tta": false
+}

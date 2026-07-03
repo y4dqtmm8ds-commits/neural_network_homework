@@ -1,0 +1,12 @@
+{
+  "applied_sample_count": 0,
+  "keep_count": 0,
+  "ambiguous_count": 0,
+  "relabel_count": 0,
+  "remove_count": 0,
+  "relabel_label_distribution": {},
+  "affected_confusion_pairs": {},
+  "ambiguous_weight": 0.6,
+  "relabel_weight": 0.8,
+  "filter_used": null
+}

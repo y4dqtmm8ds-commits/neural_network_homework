@@ -1,0 +1,16 @@
+{
+  "metric": "accuracy",
+  "search": "random",
+  "n_iter": 3000,
+  "grid_step": 0.1,
+  "class_aware": false,
+  "val_score": 0.9605538140020898,
+  "global_weights": {
+    "outputs64/seresnet_ce_64_50/best_model.pt": 0.06255507748371997,
+    "outputs64/dual_soft_ce_64_50/best_model.pt": 0.12901052587389472,
+    "outputs64/sweep_seresnet_ce_lr5e4_ls005_wd1e4_50/best_model.pt": 0.15777676888018746,
+    "outputs64/dpfee_ce_64_50/best_model.pt": 0.01574573391388422,
+    "outputs64/dpfee_focal_64_50/best_model.pt": 0.5536193626693673,
+    "outputs64/dpfee_ce_lr5e4_ls005_wd1e4_64_50/best_model.pt": 0.08129253117894637
+  }
+}

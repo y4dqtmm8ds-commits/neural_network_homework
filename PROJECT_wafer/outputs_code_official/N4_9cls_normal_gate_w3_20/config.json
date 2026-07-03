@@ -1,0 +1,20 @@
+{
+  "data_dir": "data\\processed64_onehot_all9_official",
+  "w3_checkpoint": "outputs_code_official\\W3_official_split_50\\best_model.pth",
+  "out": "outputs_code_official\\N4_9cls_normal_gate_w3_20",
+  "epochs": 20,
+  "batch_size": 128,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "width": 48,
+  "dropout": 0.25,
+  "label_smoothing": 0.03,
+  "device": "cuda",
+  "amp": true,
+  "num_workers": 0,
+  "seed": 42,
+  "patience": 8,
+  "binary_threshold": 0.5,
+  "balanced_binary_sampler": true,
+  "w3_tta": false
+}
